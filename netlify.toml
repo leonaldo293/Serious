@@ -7,6 +7,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-[build.cache]
-  paths = ["node_modules"]
