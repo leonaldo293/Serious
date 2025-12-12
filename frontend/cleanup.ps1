@@ -1,0 +1,5 @@
+"taskkill /f /im node.exe" 
+"npm cache clean --force" 
+"Remove-Item -Recurse -Force node_modules" 
+"Remove-Item -Force package-lock.json" 
+"Write-Host 'Sistema limpo! 🚀'" 

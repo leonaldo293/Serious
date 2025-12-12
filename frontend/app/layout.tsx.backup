@@ -1,0 +1,44 @@
+// app/layout.tsx
+import './globals.css';
+import { Inter } from 'next/font/google';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import SmoothScroll from '../components/SmoothScroll';
+import { AuthProvider } from '../contexts/AuthContext';
+import { LanguageProvider } from '../contexts/LanguageContext';
+import { ToastProvider } from '../components/ToastProvider';
+
+const inter = Inter({ 
+  subsets: ['latin'],
+  variable: '--font-inter',
+});
+
+export const metadata = {
+  title: 'ELTx HUB - Empowering Africa Through Innovation',
+  description: 'Building Skills. Building Africa. Language learning, software training, and innovation ecosystem.',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="pt" className={inter.variable}>
+      <body className="font-sans">
+        <LanguageProvider>
+          <AuthProvider>
+            <ToastProvider>
+              <SmoothScroll />
+              <Navbar />
+              <main className="pt-20">
+                {children}
+              </main>
+              <Footer />
+            </ToastProvider>
+          </AuthProvider>
+        </LanguageProvider>
+      </body>
+    </html>
+  );
+}

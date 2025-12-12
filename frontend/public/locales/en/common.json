@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "programas": "Programs",
+    "bootcamp": "Bootcamp",
+    "empowerment": "Empowerment",
+    "tracker": "Tracker",
+    "consulting": "Consulting",
+    "community": "Community",
+    "profile": "Profile",
+    "language": "Language",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "auth": {
+    "required": "Please login to access this content",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "inicio": {
+    "title": "Welcome to ELTx HUB",
+    "description": "Educational and technological platform for your growth",
+    "content": "Home Page Content",
+    "placeholder": "Here you will find information about our programs and services."
+  },
+  "programas": {
+    "title": "Our Programs",
+    "description": "Discover all programs available at ELTx HUB",
+    "content": "Programs Offered",
+    "placeholder": "Complete list of educational and technological programs."
+  },
+  "bootcamp": {
+    "title": "ELTx Bootcamp",
+    "description": "Intensive technological training program",
+    "content": "About the Bootcamp",
+    "placeholder": "Detailed information about the bootcamp program."
+  },
+  "empowerment": {
+    "title": "Empowerment",
+    "description": "Personal and professional empowerment program",
+    "content": "Empowerment Program",
+    "placeholder": "Content about personal and professional development."
+  },
+  "tracker": {
+    "title": "Progress Tracker",
+    "description": "Track your progress in the programs",
+    "content": "Tracking System",
+    "placeholder": "Tools to monitor your development.",
+    "restricted": "Login required to access full tracker features"
+  },
+  "consulting": {
+    "title": "Consulting",
+    "description": "Specialized consulting services",
+    "content": "Our Services",
+    "placeholder": "Consulting in technology and education."
+  },
+  "community": {
+    "title": "ELTx Community",
+    "description": "Join our learning community",
+    "content": "About the Community",
+    "placeholder": "Connect with other students and professionals."
+  },
+  "profile": {
+    "title": "Your Profile",
+    "description": "Manage your personal information",
+    "content": "Profile Settings",
+    "placeholder": "Update your information and preferences."
+  }
+}
